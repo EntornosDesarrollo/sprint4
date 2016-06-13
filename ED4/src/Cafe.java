@@ -13,7 +13,7 @@
 /*
 La clase Nespresso, hereda de Cafetera y sirve Capsulas de Cafe
 */
-public class Cafe extends Cafetera{
+public class Cafe extends NewClass{
     private double cafePorCapsula;
 
     //getters y setters
