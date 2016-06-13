@@ -31,7 +31,12 @@ public class Cafe extends NewClass{
  
     }
     
-    
+    /**
+     * Metodo para llenar la taza de cafe
+     * @param cantidadActual
+     * @return
+     * @throws IllegalArgumentException 
+     */
     
       public double servirCafe(int cantidadActual) throws IllegalArgumentException {
           
