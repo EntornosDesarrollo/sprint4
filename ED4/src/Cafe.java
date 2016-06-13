@@ -35,10 +35,10 @@ public class Cafe extends Cafetera{
     
       public double servirCafe(int cantidadActual) throws IllegalArgumentException {
           
-         if (cafePorCapsula > cantidadActual){
+         if (getCafePorCapsula() > cantidadActual){
              System.err.println("No se puede servir una cantidad de cafe por capsula superior al cafe actual");
          }else
-         cantidadActual -= cafePorCapsula;
+         cantidadActual -= getCafePorCapsula();
          //la cantidad actual menos la capsula servida, sera el resultado de cantidadActual
          return cantidadActual;
     }    
