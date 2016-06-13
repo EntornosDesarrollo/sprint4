@@ -13,7 +13,7 @@
 /*
 La clase Nespresso, hereda de Cafetera y sirve Capsulas de Cafe
 */
-public class Nespresso extends Cafetera{
+public class Cafe extends Cafetera{
     private double cafePorCapsula;
 
     //getters y setters
@@ -26,14 +26,14 @@ public class Nespresso extends Cafetera{
     }
     
     //constructor, que recibe la capacidad Maxima y la cantidad de Cafe de capsula
-    public Nespresso(int capacidadMaxima, int cafePorCapsula) {
+    public Cafe(int capacidadMaxima, int cafePorCapsula) {
       
  
     }
     
     
     
-      public double servirCapsula(int cantidadActual) throws IllegalArgumentException {
+      public double servirCafe(int cantidadActual) throws IllegalArgumentException {
           
          if (cafePorCapsula > cantidadActual){
              System.err.println("No se puede servir una cantidad de cafe por capsula superior al cafe actual");
